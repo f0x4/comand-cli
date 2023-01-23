@@ -1,0 +1,5 @@
+{
+	"node": "node -v",
+	"git": "git -v",
+	"docker": "docker compose version"
+}

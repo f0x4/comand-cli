@@ -1,0 +1,33 @@
+{
+	"name": "comand-cli",
+	"description": "CLI for minifying commands.",
+	"version": "0.0.1",
+	"license": "MIT",
+	"type": "module",
+	"bin": {
+		"comand-cli": "./dist/index.js",
+		"c": "./dist/index.js"
+	},
+	"author": {
+		"name": "f0x4",
+		"url": "https://github.com/f0x4"
+	},
+	"keywords": [
+		"comand-cli",
+		"f0x4"
+	],
+	"scripts": {
+		"build": "tsc",
+		"run": "node dist/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.18",
+		"typescript": "^4.9.4"
+	},
+	"dependencies": {
+		"cli-welcome": "^2.2.2",
+		"commander": "^9.5.0",
+		"inquirer": "^9.1.4",
+		"inquirer-autocomplete-prompt": "^3.0.0"
+	}
+}
